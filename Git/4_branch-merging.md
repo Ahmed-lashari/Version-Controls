@@ -56,3 +56,55 @@ git push origin custom-merging-branch     # code will be pushed to GITHUB
 
 After Analyzing and testing the changes from new branch, the changes will be merged into the main branch from the GitHub Repository UI by clicking hte *"Compare and Pull"* button or in the terminal like this:
 
+Compare the changes:
+```bash
+git diff main
+
+# or see the summary 
+
+git log main..feature/update-home-ui --oneline
+```
+
+Switch to main branch after analyzing chnages:
+```bash
+git checkout main
+```
+
+Pull the Latest main from GitHub (just in case to remain updated) 
+
+```bash
+# recommended but not needed
+git pull origin main
+```
+Merge Feature Branch into main Locally
+```bash
+git merge feature/update-home-ui
+```
+
+### ✅ This will merge the changes from the feature branch into main.
+
+#### ***Just for a Safe Side:***
+Push the Updated main to GitHub
+
+```bash
+git push origin main
+```
+
+# ✅ Optional Cleanup
+```bash
+git branch -d custom-merging-branch          # Delete local branch
+
+git push origin --delete custom-merging-branch   # Delete remote branch
+```
+
+
+# In Our Case the Folder Flow was a bit unadjusted, so doing another merge request from the custom branch and then pulling into main branch. (Not Needed for You)
+
+
+After adjusting the file in its folder:
+```bash
+git add .
+
+git commit -m "branch-merging file adjusted into the folder"
+```
+
