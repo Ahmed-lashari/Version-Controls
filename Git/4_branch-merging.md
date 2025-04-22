@@ -51,3 +51,8 @@ git add .                                 # add all files
 git comit -m "pushing feature branch"     # or the branch name here
 git push origin custom-merging-branch     # code will be pushed to GITHUB
 ```
+
+## 4. Merging into main Branch
+
+After Analyzing and testing the changes from new branch, the changes will be merged into the main branch from the GitHub Repository UI by clicking hte *"Compare and Pull"* button or in the terminal like this:
+
