@@ -7,7 +7,11 @@ This folder documents my entire journey mastering **Git**, the world's most popu
 
 ## 📘 Agenda & Topics Covered
 
-This repository includes detailed markdown files covering both theoretical explanations and terminal commands, ideal for beginners and intermediate developers who want to master Git.
+This repository includes detailed markdown files covering both theoretical explanations and terminal commands, ideal for beginners and intermediate developers who want to master Git, GitHub, and eventually GitLab.
+
+---
+
+### 🗂️ Git
 
 | File | Topic |
 |------|-------|
@@ -23,15 +27,34 @@ This repository includes detailed markdown files covering both theoretical expla
 
 ---
 
+### 🐙 GitHub
+
+| File | Topic |
+|------|-------|
+| `1_intro.md` | 📘 **GitHub Introduction**<br>- What is GitHub?<br>- Signing up & basic UI overview |
+| `2_colabration.md` | 🤝 **Collaboration on GitHub**<br>- Cloning repos<br>- Forks & pull requests<br>- Contributor etiquette |
+| `3_workflows.md` | 🔁 **Common Workflows**<br>- Git flow<br>- GitHub flow<br>- Trunk-based development |
+| `4_releases.md` | 🏷️ **GitHub Releases**<br>- Tagging versions<br>- Creating releases<br>- Release notes and changelogs |
+
+---
+
+### 🧪 GitLab *(Coming Soon)*
+
+I'm planning to explore GitLab in the future and will update this section accordingly.  
+Stay tuned for notes and tutorials on GitLab workflows, CI/CD, and more.
+
+---
+
 ## 📂 Structure
 
-This folder is organized by topics and file names to reflect the order of learning. You can open each `.md` file in VS Code or any Markdown viewer for a deep dive.
+This folder is organized by topics and file names to reflect the order of learning.  
+You can open each `.md` file in VS Code or any Markdown viewer for a deep dive.
 
 ---
 
 ## 🏁 Final Words
 
-This journey has taken me from basic `git init` to complex branching and enterprise workflows.  
+This journey has taken me from basic `git init` to complex branching, GitHub workflows, and beyond.  
 If you're just starting, feel free to **clone, fork, or star** this repository and walk through each file at your own pace.
 
 > "Mastering Git is like mastering a superpower in software development." – ***Ahmed Lashari***
@@ -44,4 +67,3 @@ I'm a Flutter developer exploring backend, DevOps, and software craftsmanship.
 This Git folder is a proud part of my developer toolkit.
 
 ---
-
