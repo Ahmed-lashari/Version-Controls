@@ -51,7 +51,7 @@ Pull Requests are how changes are proposed and reviewed.
 
 ## 🛠 Example Workflow (Team Collaboration)
 ```bash
-git checkout -b Github/collabration-file
+git checkout -b Github/colabration-file
 # make your changes
 git add .
 git commit -m "Collabration intro completed"
